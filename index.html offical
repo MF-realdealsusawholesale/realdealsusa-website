@@ -1,0 +1,1088 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#2B6CB0">
+<title>RealDealsUSA | Sell Your House Fast For Cash</title>
+<meta name="description" content="RealDealsUSA buys houses for cash — fast, fair, and hassle-free. We help sellers facing foreclosure, low equity, or who simply need to sell quickly.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="RealDealsUSA">
+<meta property="og:title" content="RealDealsUSA | Sell Your House Fast For Cash">
+<meta property="og:description" content="RealDealsUSA buys houses for cash — fast, fair, and hassle-free. We help sellers facing foreclosure, low equity, or who simply need to sell quickly.">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="RealDealsUSA | Sell Your House Fast For Cash">
+<meta name="twitter:description" content="RealDealsUSA buys houses for cash — fast, fair, and hassle-free.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;0,700;1,500&family=Public+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='6' fill='%232B6CB0'/%3E%3Cpath d='M3 12.2L12 5l9 7.2' stroke='white' stroke-width='1.7' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M15.4 7.1V4.3h2.8v3.6' stroke='white' stroke-width='1.7' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M5.8 12v7.5h12.4V12' stroke='white' stroke-width='1.7' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<style>
+  :root{
+    --navy-950:#16324E;
+    --navy-900:#1E3F5E;
+    --navy-800:#15385E;
+    --blue-600:#2B6CB0;
+    --blue-200:#D9EAF6;
+    --blue-100:#E7F1FA;
+    --blue-50:#F3F8FC;
+    --white:#FFFFFF;
+    --page-bg:#F8FBFE;
+    --ink:#1B3348;
+    --slate-600:#4C6178;
+    --slate-500:#5F7488;
+    --gold-600:#B9862F;
+    --border:#D9E5F0;
+    --radius:14px;
+    --shadow-sm: 0 1px 3px rgba(10,31,56,0.08);
+    --shadow-md: 0 8px 22px rgba(10,31,56,0.10);
+    --shadow-lg: 0 20px 46px rgba(10,31,56,0.16);
+    --header-h: 150px;
+  }
+
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth; overflow-x:hidden;}
+  @media (prefers-reduced-motion: reduce){
+    html{scroll-behavior:auto;}
+    *{animation-duration:0.01ms !important; animation-iteration-count:1 !important; transition-duration:0.01ms !important;}
+  }
+
+  body{
+    margin:0;
+    font-family:'Public Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    color:var(--ink);
+    background:var(--page-bg);
+    font-size:18px;
+    line-height:1.65;
+    overflow-x:hidden;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  h1,h2,h3,h4{
+    font-family:'Lora', Georgia, serif;
+    color:var(--navy-950);
+    line-height:1.2;
+    margin:0 0 0.5em 0;
+    font-weight:600;
+  }
+
+  p{margin:0 0 1em 0;}
+  a{color:inherit;}
+  img{max-width:100%; display:block;}
+
+  .skip-link{
+    position:absolute; left:-9999px; top:0; background:var(--navy-950); color:var(--white);
+    padding:12px 20px; z-index:1000; border-radius:0 0 8px 0; font-weight:700;
+  }
+  .skip-link:focus{left:0;}
+
+  a:focus-visible, button:focus-visible, summary:focus-visible{
+    outline:3px solid var(--gold-600);
+    outline-offset:3px;
+  }
+
+  .container{
+    max-width:1160px;
+    margin:0 auto;
+    padding:0 24px;
+  }
+
+  /* ---------- Two-tone heading accent (signature text style, used throughout) ---------- */
+  .accent{ color:var(--blue-600); }
+  .accent-light{ color:var(--blue-600); }
+
+  /* ---------- Header: soft gradient fade over the hero, frosted glass on scroll ---------- */
+  header.site{
+    position:fixed;
+    top:0; left:0; right:0;
+    z-index:100;
+    background:linear-gradient(to bottom, rgba(231,241,250,0.75) 0%, rgba(231,241,250,0.35) 55%, rgba(231,241,250,0) 100%);
+    border-bottom:1px solid transparent;
+    transition:background 0.35s ease, backdrop-filter 0.35s ease, box-shadow 0.35s ease, border-color 0.35s ease;
+  }
+  header.site.scrolled{
+    background:rgba(255,255,255,0.72);
+    backdrop-filter:blur(16px) saturate(160%);
+    -webkit-backdrop-filter:blur(16px) saturate(160%);
+    border-bottom:1px solid rgba(217,229,240,0.7);
+    box-shadow:var(--shadow-sm);
+  }
+  .nav-row{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:14px 24px;
+    gap:24px;
+    flex-wrap:wrap;
+  }
+  .brand{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    text-decoration:none;
+  }
+  .brand-mark{
+    width:36px; height:36px;
+    border-radius:50%;
+    background:rgba(10,31,56,0.06);
+    border:1.5px solid rgba(10,31,56,0.35);
+    display:flex; align-items:center; justify-content:center;
+    color:var(--navy-900);
+    flex-shrink:0;
+  }
+  .brand-text .name{
+    font-family:'Lora', serif;
+    font-weight:700;
+    font-size:21px;
+    letter-spacing:0.2px;
+    color:var(--navy-950);
+    line-height:1.05;
+    position:relative;
+    top:3px;
+  }
+  .brand-text .tagline{
+    font-size:10.5px;
+    letter-spacing:1.1px;
+    text-transform:uppercase;
+    font-weight:600;
+    color:rgba(15,42,71,0.65);
+    line-height:1.3;
+  }
+
+  nav.main-links{
+    display:flex;
+    gap:28px;
+    flex-wrap:wrap;
+  }
+  nav.main-links a{
+    text-decoration:none;
+    font-weight:600;
+    font-size:15.5px;
+    letter-spacing:0.2px;
+    color:var(--navy-900);
+    padding:6px 2px;
+    transition:color 0.25s ease;
+  }
+  nav.main-links a:hover{ color:var(--blue-600); }
+
+  .btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+    padding:16px 30px;
+    border-radius:999px;
+    font-weight:700;
+    font-size:18px;
+    text-decoration:none;
+    cursor:pointer;
+    border:2px solid transparent;
+    min-height:52px;
+    transition:transform 0.15s ease, box-shadow 0.15s ease;
+  }
+  .btn:hover{ transform:translateY(-2px); }
+  .btn-primary{
+    background:var(--blue-600);
+    color:var(--white);
+    box-shadow:var(--shadow-md);
+  }
+  .btn-primary:hover{ background:var(--navy-800); }
+  .btn-block{ width:100%; }
+
+  /* ---------- Hero ---------- */
+  .hero{
+    background:
+      radial-gradient(circle at 85% 20%, rgba(255,255,255,0.6), transparent 55%),
+      linear-gradient(180deg, #EAF3FB, #D3E7F7 78%);
+    color:var(--navy-950);
+    padding:calc(var(--header-h) + 40px) 0 96px;
+    position:relative;
+    overflow:hidden;
+  }
+  .hero-grid{
+    display:grid;
+    grid-template-columns:1.1fr 0.9fr;
+    gap:56px;
+    align-items:center;
+  }
+  .eyebrow{
+    display:inline-block;
+    background:rgba(10,31,56,0.06);
+    border:1px solid rgba(10,31,56,0.25);
+    color:var(--navy-900);
+    padding:8px 18px;
+    border-radius:999px;
+    font-weight:700;
+    font-size:15px;
+    margin-bottom:22px;
+    letter-spacing:0.3px;
+  }
+  .hero h1{
+    color:var(--navy-950);
+    font-size:clamp(34px, 4.6vw, 50px);
+    margin-bottom:22px;
+  }
+  .hero h1 em{ color:var(--blue-600); font-style:normal; }
+  .hero p.lead{
+    font-size:19px;
+    color:var(--slate-600);
+    max-width:56ch;
+    margin-bottom:32px;
+  }
+  .hero-actions{
+    display:flex;
+    gap:18px;
+    flex-wrap:wrap;
+    margin-bottom:28px;
+  }
+  .hero-note{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    color:var(--slate-600);
+    font-size:16px;
+    font-weight:600;
+  }
+  .hero-note svg{ flex-shrink:0; }
+
+  .hero-card{
+    background:var(--white);
+    color:var(--ink);
+    border-radius:20px;
+    padding:34px;
+    box-shadow:var(--shadow-lg);
+  }
+  .hero-card h3{ font-size:22px; margin-bottom:6px;}
+  .hero-card p.sub{ color:var(--slate-600); font-size:16px; margin-bottom:22px;}
+  .hero-card label{
+    display:block;
+    font-weight:700;
+    font-size:15px;
+    color:var(--navy-900);
+    margin-bottom:6px;
+    margin-top:16px;
+  }
+  .hero-card input{
+    width:100%;
+    padding:14px 16px;
+    font-size:17px;
+    border:2px solid var(--border);
+    border-radius:10px;
+    font-family:inherit;
+  }
+  .hero-card input:focus-visible{ border-color:var(--blue-600); outline:none; }
+  .hero-card input.invalid{ border-color:#B3413C; background:#FBEFEE; }
+  .field-error{
+    display:none;
+    color:#B3413C;
+    font-size:14.5px;
+    font-weight:600;
+    margin-top:6px;
+  }
+  .field-error.visible{ display:block; }
+  .hero-card .btn{ margin-top:22px; }
+  .hero-card .fineprint{
+    font-size:13.5px;
+    color:var(--slate-500);
+    margin-top:14px;
+    text-align:center;
+  }
+
+  /* ---------- Trust strip ---------- */
+  .trust-strip{
+    background:var(--blue-200);
+    border-bottom:1px solid var(--border);
+    padding:26px 0;
+  }
+  .trust-strip ul{
+    list-style:none;
+    margin:0; padding:0;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:34px;
+  }
+  .trust-strip li{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    font-weight:700;
+    color:var(--navy-900);
+    font-size:16.5px;
+  }
+
+  /* ---------- Section shell ---------- */
+  section{ padding:88px 0; }
+  .section-head{
+    text-align:center;
+    max-width:720px;
+    margin:0 auto 56px;
+  }
+  .section-head .kicker{
+    color:var(--blue-600);
+    font-weight:700;
+    letter-spacing:0.5px;
+    text-transform:uppercase;
+    font-size:14.5px;
+    margin-bottom:10px;
+    display:block;
+  }
+  .section-head h2{ font-size:clamp(28px,3.4vw,38px); }
+  .section-head p{ color:var(--slate-600); font-size:18px; }
+  .bg-tint{ background:var(--blue-200); }
+
+  /* ---------- Steps ---------- */
+  .steps{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:34px;
+  }
+  .step{
+    background:var(--white);
+    border:1px solid var(--border);
+    border-radius:var(--radius);
+    padding:34px 30px;
+    box-shadow:var(--shadow-sm);
+    position:relative;
+  }
+  .step .num{
+    width:46px; height:46px;
+    border-radius:12px;
+    background:var(--blue-600);
+    color:var(--white);
+    display:flex; align-items:center; justify-content:center;
+    font-family:'Lora', serif;
+    font-weight:700;
+    font-size:21px;
+    margin-bottom:18px;
+  }
+  .step h3{ font-size:20px; margin-bottom:10px;}
+  .step p{ color:var(--slate-600); font-size:16.5px; margin-bottom:0;}
+
+  /* ---------- Situations grid ---------- */
+  .situations{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:26px;
+  }
+  .situation{
+    background:var(--white);
+    border:1px solid var(--border);
+    border-radius:var(--radius);
+    padding:28px;
+    display:flex;
+    gap:18px;
+    align-items:flex-start;
+  }
+  .situation .icon{
+    width:44px; height:44px;
+    border-radius:10px;
+    background:var(--blue-600);
+    color:var(--white);
+    display:flex; align-items:center; justify-content:center;
+    flex-shrink:0;
+  }
+  .situation h3{ font-size:18.5px; margin-bottom:6px; }
+  .situation p{ color:var(--slate-600); font-size:16px; margin-bottom:0; }
+
+  /* ---------- Comparison ---------- */
+  .compare-cards{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:28px;
+    align-items:start;
+  }
+  .compare-card{
+    background:var(--white);
+    border:1px solid var(--border);
+    border-radius:var(--radius);
+    padding:38px 32px 32px;
+    position:relative;
+  }
+  .compare-card--featured{
+    border:2px solid var(--blue-600);
+    box-shadow:var(--shadow-md);
+  }
+  .compare-card-badge{
+    position:absolute;
+    top:-14px; left:50%;
+    transform:translateX(-50%);
+    background:var(--blue-600);
+    color:var(--white);
+    font-size:12.5px;
+    font-weight:700;
+    letter-spacing:0.3px;
+    text-transform:uppercase;
+    padding:7px 18px;
+    border-radius:999px;
+    white-space:nowrap;
+    box-shadow:var(--shadow-sm);
+  }
+  .compare-card h3{
+    text-align:center;
+    font-size:21px;
+    margin-bottom:26px;
+  }
+  .compare-list{
+    list-style:none;
+    margin:0;
+    padding:0;
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+  }
+  .compare-list li{
+    display:flex;
+    gap:14px;
+    align-items:flex-start;
+  }
+  .compare-list li > span:last-child{
+    display:flex;
+    flex-direction:column;
+    gap:2px;
+  }
+  .compare-list strong{
+    font-size:16.5px;
+    color:var(--navy-950);
+  }
+  .row-sub{
+    font-size:14.5px;
+    color:var(--slate-500);
+  }
+  .row-icon{
+    width:24px; height:24px;
+    border-radius:50%;
+    display:flex; align-items:center; justify-content:center;
+    flex-shrink:0;
+    margin-top:2px;
+  }
+  .row-icon--yes{
+    background:#E4F4EA;
+    color:#1E7A46;
+  }
+  .row-icon--muted{
+    background:var(--blue-100);
+    position:relative;
+  }
+  .row-icon--muted::after{
+    content:"";
+    width:9px; height:2px;
+    background:var(--slate-500);
+    border-radius:2px;
+  }
+  .compare-list--muted strong{ color:var(--navy-900); }
+
+  /* ---------- About / Who We Are ---------- */
+  .about-signature{
+    font-family:'Lora', serif;
+    font-style:italic;
+    font-size:18px;
+    color:var(--navy-900);
+    text-align:center;
+    max-width:640px;
+    margin:0 auto;
+  }
+
+  /* ---------- FAQ ---------- */
+  .faq-list{ max-width:820px; margin:0 auto; display:flex; flex-direction:column; gap:14px; }
+  details.faq-item{
+    background:var(--white);
+    border:1px solid var(--border);
+    border-radius:12px;
+    padding:6px 26px;
+  }
+  details.faq-item summary{
+    cursor:pointer;
+    list-style:none;
+    padding:20px 0;
+    font-weight:700;
+    font-size:18px;
+    color:var(--navy-900);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:16px;
+  }
+  details.faq-item summary::-webkit-details-marker{ display:none; }
+  details.faq-item summary .chev{
+    flex-shrink:0;
+    transition:transform 0.2s ease;
+    color:var(--blue-600);
+  }
+  details.faq-item[open] summary .chev{ transform:rotate(180deg); }
+  details.faq-item p{
+    color:var(--slate-600);
+    font-size:16.5px;
+    padding-bottom:22px;
+    margin:0;
+  }
+
+  /* ---------- Final CTA ---------- */
+  .final-cta{
+    background:linear-gradient(180deg, var(--blue-100), var(--blue-50));
+    color:var(--navy-950);
+    text-align:center;
+    padding:90px 0;
+  }
+  .final-cta h2{ color:var(--navy-950); font-size:clamp(28px,3.6vw,40px); }
+  .final-cta p{ color:var(--slate-600); font-size:18px; max-width:62ch; margin:0 auto 34px; }
+  .final-cta .btn-primary{ background:var(--gold-600); }
+  .final-cta .btn-primary:hover{ background:#A2751F; }
+  .final-cta .contact-line{
+    margin-top:26px;
+    font-size:19px;
+    font-weight:800;
+    overflow-wrap:anywhere;
+    padding:0 12px;
+  }
+  .final-cta .contact-line a{ color:var(--navy-950); text-decoration:none; border-bottom:2px solid var(--gold-600); }
+
+  /* ---------- Footer ---------- */
+  footer{
+    background:var(--blue-50);
+    color:var(--slate-600);
+    padding:56px 0 34px;
+    font-size:15.5px;
+    border-top:1px solid var(--border);
+  }
+  .footer-grid{
+    display:grid;
+    grid-template-columns:1.4fr 1fr 1fr;
+    gap:40px;
+    padding-bottom:34px;
+    border-bottom:1px solid rgba(10,31,56,0.12);
+  }
+  footer h4{ color:var(--navy-950); font-family:'Public Sans',sans-serif; font-size:15px; text-transform:uppercase; letter-spacing:0.5px; margin-bottom:16px; }
+  footer .brand-text .name{ color:var(--navy-950); }
+  footer ul{ list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:10px; overflow-wrap:anywhere; }
+  footer a{ color:var(--slate-600); text-decoration:none; display:inline-block; padding:4px 0; }
+  footer a:hover{ color:var(--navy-950); }
+  .footer-bottom{
+    padding-top:24px;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    gap:12px;
+    font-size:14px;
+    color:var(--slate-500);
+  }
+
+  /* ---------- Sticky mobile call button ---------- */
+  .sticky-call{
+    display:none;
+  }
+
+  /* ---------- Responsive ---------- */
+  @media (max-width: 980px){
+    .hero-grid{ grid-template-columns:1fr; }
+    .steps{ grid-template-columns:1fr; }
+    .situations{ grid-template-columns:1fr 1fr; }
+    .footer-grid{ grid-template-columns:1fr; }
+    nav.main-links{ order:3; width:100%; justify-content:center; padding-top:10px; border-top:1px solid rgba(10,31,56,0.15); }
+  }
+  @media (max-width: 640px){
+    body{ font-size:17px; }
+    .hero{ padding-top:calc(var(--header-h) + 24px); }
+    section{ padding:64px 0; }
+    .situations{ grid-template-columns:1fr; }
+    .compare-cards{ grid-template-columns:1fr; gap:40px; }
+    .compare-card--featured{ order:-1; }
+    .sticky-call{
+      display:flex;
+      position:fixed;
+      bottom:0; left:0; right:0;
+      z-index:200;
+      background:var(--blue-50);
+      padding:12px 16px calc(12px + env(safe-area-inset-bottom));
+      box-shadow:0 -6px 20px rgba(10,31,56,0.15);
+    }
+    .sticky-call a{
+      width:100%;
+      text-align:center;
+      background:var(--gold-600);
+      color:var(--white);
+      text-decoration:none;
+      font-weight:800;
+      font-size:18px;
+      padding:16px;
+      border-radius:12px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      gap:10px;
+    }
+    body{ padding-bottom:78px; }
+  }
+</style>
+</head>
+<body>
+
+<a href="#main" class="skip-link">Skip to main content</a>
+
+<header class="site">
+  <div class="container nav-row">
+    <a href="#main" class="brand" aria-label="RealDealsUSA home">
+      <span class="brand-mark" aria-hidden="true">
+        <svg width="23" height="23" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M3 11.5L12 4l9 7.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M15.2 6.3V3.3h3v4.2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M5.5 11v9h13v-9" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </span>
+      <span class="brand-text">
+        <span class="name">RealDealsUSA</span><br>
+        <span class="tagline">Nationwide Cash Home Buyers</span>
+      </span>
+    </a>
+
+    <nav class="main-links" aria-label="Main navigation">
+      <a href="#how-it-works">How It Works</a>
+      <a href="#situations">We Can Help If&hellip;</a>
+      <a href="#about">Who We Are</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ================= HERO ================= -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <span class="eyebrow">Nationwide Cash Home Buyers &nbsp;•&nbsp; No Fees &nbsp;•&nbsp; No Repairs</span>
+        <h1>A Direct, <em>Dependable</em> Way to Sell Your Home</h1>
+        <p class="lead">RealDealsUSA is a team of real estate professionals dedicated to helping homeowners across the United States sell quickly, fairly, and without unnecessary complication. Backed by a nationwide network of vetted cash buyers, our acquisitions specialists evaluate each property individually and present a written cash offer with no obligation to accept. There are no repairs to complete, no showings to schedule, and no commissions deducted from your proceeds &mdash; only a transparent process and a closing date selected according to your circumstances.</p>
+        <div class="hero-actions">
+          <a href="#offer-form" class="btn btn-primary">Get My Free Cash Offer</a>
+          <a href="mailto:realdealsusa.wholesale@gmail.com" class="btn btn-primary">
+            Email Us Directly
+          </a>
+        </div>
+        <div class="hero-note">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 12l2 2 4-4M21 12a9 9 0 11-18 0 9 9 0 0118 0z" stroke="#8FCB9E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          No obligation. No pressure. A transparent conversation from the very first message.
+        </div>
+      </div>
+
+      <div class="hero-card" id="offer-form">
+        <h3>Request Your Complimentary, No-Obligation Offer</h3>
+        <p class="sub">Complete the form below or email us directly &mdash; either way, you will hear back from a member of our acquisitions team, not an automated inbox.</p>
+        <form id="lead-form" action="https://formspree.io/f/xyegooyn" method="POST" onsubmit="handleFormSubmit(event)" novalidate>
+          <input type="hidden" name="_subject" value="New Lead from RealDealsUSA Website">
+          <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+          <label for="fname">Your Name</label>
+          <input id="fname" name="name" type="text" autocomplete="name" required>
+          <span class="field-error" id="err-fname">Please enter your name.</span>
+
+          <label for="fphone">Phone Number</label>
+          <input id="fphone" name="phone" type="tel" autocomplete="tel" required>
+          <span class="field-error" id="err-fphone">Please enter a phone number so we can reach you.</span>
+
+          <label for="faddress">Property Address</label>
+          <input id="faddress" name="address" type="text" autocomplete="street-address" required>
+          <span class="field-error" id="err-faddress">Please enter the property address.</span>
+
+          <button type="submit" class="btn btn-primary btn-block">Send My Info &rarr;</button>
+          <p class="fineprint">We respond within one business day. Your information is never sold or shared.</p>
+          <p class="fineprint">Prefer not to fill out a form? <a href="mailto:realdealsusa.wholesale@gmail.com">Email us directly</a> instead.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= TRUST STRIP ================= -->
+  <div class="trust-strip">
+    <div class="container">
+      <ul>
+        <li>✓ No fees or commissions</li>
+        <li>✓ We cover all closing costs</li>
+        <li>✓ Sell as-is, no repairs required</li>
+        <li>✓ You select the closing date</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ================= HOW IT WORKS ================= -->
+  <section id="how-it-works">
+    <div class="container">
+      <div class="section-head">
+        <span class="kicker">The Process</span>
+        <h2>Three Simple Steps to <span class="accent">a Done Deal</span></h2>
+        <p>No fine print and no surprises &mdash; just three clear steps, from your first message to the day you close.</p>
+      </div>
+
+      <div class="steps">
+        <div class="step">
+          <div class="num">1</div>
+          <h3>You Contact Our Team</h3>
+          <p>Email us or submit your property details through the form above. A member of our acquisitions team will respond promptly to discuss your situation and answer any initial questions.</p>
+        </div>
+        <div class="step">
+          <div class="num">2</div>
+          <h3>We Evaluate &amp; Make an Offer</h3>
+          <p>Our team carefully reviews your property's details &mdash; whether shared directly by you or observed during an on-site walkthrough &mdash; and prepares a straightforward, written cash offer, typically within twenty-four hours.</p>
+        </div>
+        <div class="step">
+          <div class="num">3</div>
+          <h3>You Choose When to Close</h3>
+          <p>Upon acceptance, our team manages all necessary paperwork and coordinates closing through a licensed local title company, on a timeline determined entirely by your needs.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SITUATIONS ================= -->
+  <section id="situations" class="bg-tint">
+    <div class="container">
+      <div class="section-head">
+        <span class="kicker">We Can Help</span>
+        <h2>Whatever the Reason, <span class="accent">We Have a Solution</span></h2>
+        <p>Every seller's situation is different. Here are some of the most common reasons homeowners come to our team.</p>
+      </div>
+
+      <div class="situations">
+        <div class="situation">
+          <div class="icon" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 2l9 6v14H3V8l9-6z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+          </div>
+          <div>
+            <h3>Facing Foreclosure</h3>
+            <p>Should you be facing foreclosure, our team can move quickly and coordinate directly with your lender to help you avoid the long-term financial and credit consequences of a foreclosure filing.</p>
+          </div>
+        </div>
+        <div class="situation">
+          <div class="icon" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M3 12h18M12 3v18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <div>
+            <h3>Low or No Equity</h3>
+            <p>If you owe close to the current market value of your property, our acquisitions specialists can explore alternative arrangements that a traditional listing may not accommodate.</p>
+          </div>
+        </div>
+        <div class="situation">
+          <div class="icon" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2"/><path d="M12 7v5l3 3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <div>
+            <h3>Need to Sell ASAP</h3>
+            <p>Whether you are relocating, downsizing, or simply ready to move forward, our team is equipped to close in as little as two weeks.</p>
+          </div>
+        </div>
+        <div class="situation">
+          <div class="icon" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M4 21V9l8-6 8 6v12M9 21v-6h6v6" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+          </div>
+          <div>
+            <h3>Inherited a Property</h3>
+            <p>We regularly assist families through the probate process, simplifying the sale of inherited or out-of-state properties on their behalf.</p>
+          </div>
+        </div>
+        <div class="situation">
+          <div class="icon" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M14 2l6 6-11 11H3v-6L14 2z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+          </div>
+          <div>
+            <h3>Home Needs Repairs</h3>
+            <p>Our team purchases homes in any condition, allowing you to bypass the cost and delay associated with contractor repairs entirely.</p>
+          </div>
+        </div>
+        <div class="situation">
+          <div class="icon" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M20 21a8 8 0 10-16 0M12 11a4 4 0 100-8 4 4 0 000 8z" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <div>
+            <h3>Downsizing or Moving</h3>
+            <p>For homeowners ready for a simpler chapter, our team provides a straightforward transition to a smaller home or a location closer to family.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= COMPARISON ================= -->
+  <section id="compare">
+    <div class="container">
+      <div class="section-head">
+        <span class="kicker">Know Your Options</span>
+        <h2>Selling to Us vs. <span class="accent">Listing With an Agent</span></h2>
+        <p>Listing with an agent works well for some homeowners. For many others, it means months of uncertainty, repair costs, and commissions that cut into their proceeds. Here's an honest look at what selling directly to RealDealsUSA can offer instead.</p>
+      </div>
+
+      <div class="compare-cards">
+        <div class="compare-card compare-card--featured">
+          <span class="compare-card-badge">What You Gain With Us</span>
+          <h3>Selling to RealDealsUSA</h3>
+          <ul class="compare-list">
+            <li>
+              <span class="row-icon row-icon--yes" aria-hidden="true"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+              <span><strong>Close in as little as 2 weeks</strong><span class="row-sub">On a closing date that works for you</span></span>
+            </li>
+            <li>
+              <span class="row-icon row-icon--yes" aria-hidden="true"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+              <span><strong>$0 spent on repairs</strong><span class="row-sub">Sell exactly as-is, no contractors needed</span></span>
+            </li>
+            <li>
+              <span class="row-icon row-icon--yes" aria-hidden="true"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+              <span><strong>No showings or open houses</strong><span class="row-sub">One simple walkthrough, then you're done</span></span>
+            </li>
+            <li>
+              <span class="row-icon row-icon--yes" aria-hidden="true"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+              <span><strong>$0 in commissions or fees</strong><span class="row-sub">You keep more of your home's equity</span></span>
+            </li>
+            <li>
+              <span class="row-icon row-icon--yes" aria-hidden="true"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+              <span><strong>A real cash offer, not a maybe</strong><span class="row-sub">No bank approval needed, so deals rarely fall through</span></span>
+            </li>
+            <li>
+              <span class="row-icon row-icon--yes" aria-hidden="true"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+              <span><strong>You set the terms</strong><span class="row-sub">Choose the closing date that fits your life</span></span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="compare-card">
+          <h3>Listing With a Traditional Agent</h3>
+          <ul class="compare-list compare-list--muted">
+            <li>
+              <span class="row-icon row-icon--muted" aria-hidden="true"></span>
+              <span><strong>60&ndash;90+ days on average</strong><span class="row-sub">Timeline depends on the buyer's financing</span></span>
+            </li>
+            <li>
+              <span class="row-icon row-icon--muted" aria-hidden="true"></span>
+              <span><strong>Repairs often expected</strong><span class="row-sub">Buyers may request repairs before closing</span></span>
+            </li>
+            <li>
+              <span class="row-icon row-icon--muted" aria-hidden="true"></span>
+              <span><strong>Multiple showings</strong><span class="row-sub">Open houses and private tours, often for weeks</span></span>
+            </li>
+            <li>
+              <span class="row-icon row-icon--muted" aria-hidden="true"></span>
+              <span><strong>5&ndash;6% in commissions</strong><span class="row-sub">Paid out of your proceeds at closing</span></span>
+            </li>
+            <li>
+              <span class="row-icon row-icon--muted" aria-hidden="true"></span>
+              <span><strong>Financing contingencies</strong><span class="row-sub">Sales can fall through if the buyer's loan isn't approved</span></span>
+            </li>
+            <li>
+              <span class="row-icon row-icon--muted" aria-hidden="true"></span>
+              <span><strong>Closing date set by the lender</strong><span class="row-sub">Timeline is dictated by the buyer's mortgage process</span></span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= WHO WE ARE ================= -->
+  <section id="about" class="bg-tint">
+    <div class="container">
+      <div class="section-head">
+        <span class="kicker">Who We Are</span>
+        <h2>A Team Built <span class="accent">Around You</span></h2>
+        <p>RealDealsUSA is a real estate investment company built on a straightforward premise: selling a home should never require months of uncertainty, costly repairs, or pressure from an unfamiliar party. Our team brings together market knowledge from coast to coast, a nationwide network of cash buyers, and a disciplined, transparent process to give homeowners a dependable alternative to the traditional listing process. Every property is evaluated on its own merits, and every offer is structured to reflect real, current market conditions &mdash; never a one-size-fits-all formula.</p>
+      </div>
+
+      <div class="situations" style="margin-bottom:44px;">
+        <div class="situation">
+          <div class="icon" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 21s7-6.5 7-11a7 7 0 10-14 0c0 4.5 7 11 7 11z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><circle cx="12" cy="10" r="2.5" stroke="currentColor" stroke-width="2"/></svg>
+          </div>
+          <div>
+            <h3>Nationwide Market Knowledge</h3>
+            <p>Our acquisitions team studies the market conditions in your specific area closely, ensuring every offer reflects an accurate, well-researched understanding of your property's true value &mdash; no matter where in the country you're located.</p>
+          </div>
+        </div>
+        <div class="situation">
+          <div class="icon" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+          </div>
+          <div>
+            <h3>Transparent Communication</h3>
+            <p>We explain every step of the process in plain, direct terms &mdash; from how an offer is calculated to what happens at closing &mdash; so there are never any surprises.</p>
+          </div>
+        </div>
+        <div class="situation">
+          <div class="icon" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6l8-4z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M9 12l2 2 4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div>
+            <h3>Homeowner-First Standards</h3>
+            <p>Every offer we extend is made with the seller's best interest in mind &mdash; with no obligation, no pressure, and no hidden fees at any stage of the process.</p>
+          </div>
+        </div>
+      </div>
+
+      <p class="about-signature">Every member of our team is committed to earning that trust, one homeowner at a time. &mdash; The RealDealsUSA Team</p>
+    </div>
+  </section>
+
+  <!-- ================= FAQ ================= -->
+  <section id="faq">
+    <div class="container">
+      <div class="section-head">
+        <span class="kicker">Common Questions</span>
+        <h2>You Asked, <span class="accent">We Answered</span></h2>
+      </div>
+
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>Will I get a fair price for my house?
+            <svg class="chev" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </summary>
+          <p>Yes. Each offer is calculated based on your property's current condition, its location, and prevailing market values, less the anticipated costs of repairs, holding time, and resale. Our team reviews these factors transparently with you and welcomes any questions regarding how a specific offer was determined.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Do I have to fix anything before selling?
+            <svg class="chev" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </summary>
+          <p>Not at all. Our acquisitions team purchases properties in any condition, ranging from move-in ready homes to those requiring substantial renovation. You are never required to clean, repair, or improve the property prior to sale.</p>
+        </details>
+        <details class="faq-item">
+          <summary>How fast can we actually close?
+            <svg class="chev" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </summary>
+          <p>In many cases, our team can complete a closing in as little as two weeks. That said, we remain flexible and are pleased to accommodate a longer timeline should your circumstances require additional time.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Am I obligated to accept the offer?
+            <svg class="chev" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </summary>
+          <p>You are under no obligation whatsoever. Both the initial consultation and the resulting offer are provided free of charge, and you are welcome to take the time you need to consider your options or decline entirely.</p>
+        </details>
+        <details class="faq-item">
+          <summary>What if I'm already in foreclosure?
+            <svg class="chev" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </summary>
+          <p>Timing is critical in these circumstances. We encourage you to contact our team as early as possible; in many cases, we are able to move quickly enough to help homeowners avoid foreclosure altogether.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FINAL CTA ================= -->
+  <section class="final-cta">
+    <div class="container">
+      <h2>Ready to <span class="accent-light">Talk It Through?</span></h2>
+      <p>There is no cost and no obligation associated with requesting your offer. Our team is prepared to answer your questions and guide you through every step of the process &mdash; the only step remaining is to reach out.</p>
+      <a href="#offer-form" class="btn btn-primary">Get My Free Cash Offer</a>
+      <div class="contact-line">
+        <a href="mailto:realdealsusa.wholesale@gmail.com">realdealsusa.wholesale@gmail.com</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="brand-text" style="margin-bottom:16px;">
+          <span class="name" style="font-size:22px;">RealDealsUSA</span>
+        </div>
+        <p style="max-width:38ch; color:var(--slate-600);">RealDealsUSA is a team of real estate investment professionals dedicated to providing homeowners nationwide with honest guidance and a fair, transparent path to selling their property.</p>
+      </div>
+      <div>
+        <h4>Get In Touch</h4>
+        <ul>
+          <li><a href="mailto:realdealsusa.wholesale@gmail.com">realdealsusa.wholesale@gmail.com</a></li>
+          <li>Proudly serving homeowners nationwide</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="#how-it-works">How It Works</a></li>
+          <li><a href="#situations">Situations We Help With</a></li>
+          <li><a href="#about">Who We Are</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span id="year"></span> RealDealsUSA. All rights reserved. &nbsp;&middot;&nbsp; <a href="privacy.html" style="text-decoration:underline;">Privacy Policy</a></span>
+      <span>This is not a guarantee of purchase. All offers are subject to inspection.</span>
+    </div>
+  </div>
+</footer>
+
+<div class="sticky-call">
+  <a href="mailto:realdealsusa.wholesale@gmail.com">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 5h16a1 1 0 011 1v12a1 1 0 01-1 1H4a1 1 0 01-1-1V6a1 1 0 011-1z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M3.5 6.5l8.5 6 8.5-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    Email Us Now
+  </a>
+</div>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  async function handleFormSubmit(e){
+    e.preventDefault();
+    const form = e.target;
+    const fields = [
+      { input: form.name, error: 'err-fname' },
+      { input: form.phone, error: 'err-fphone' },
+      { input: form.address, error: 'err-faddress' }
+    ];
+    let firstInvalid = null;
+    fields.forEach(function(f){
+      const invalid = f.input.value.trim() === '';
+      f.input.classList.toggle('invalid', invalid);
+      document.getElementById(f.error).classList.toggle('visible', invalid);
+      if(invalid && !firstInvalid) firstInvalid = f.input;
+    });
+    if(firstInvalid){
+      firstInvalid.focus();
+      return;
+    }
+    const name = form.name.value.trim();
+    const submitBtn = form.querySelector('button[type="submit"]');
+    const originalText = submitBtn.textContent;
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'Sending...';
+
+    try {
+      const response = await fetch(form.action, {
+        method: 'POST',
+        body: new FormData(form),
+        headers: { 'Accept': 'application/json' }
+      });
+      if(!response.ok) throw new Error('Submission failed');
+      form.innerHTML = '<div style="text-align:center; padding: 20px 0;">' +
+        '<h3 style="margin-bottom:10px;">Thank you' + (name ? ', ' + name.split(" ")[0] : '') + '!</h3>' +
+        '<p style="color:#5F7488; margin-bottom:0;">A member of our team will get in touch within one business day to walk through your cash offer &mdash; no pressure, no obligation. If it\'s urgent, please email us directly at realdealsusa.wholesale@gmail.com.</p>' +
+        '</div>';
+    } catch(err) {
+      submitBtn.disabled = false;
+      submitBtn.textContent = originalText;
+      alert('Something went wrong sending your info. Please email us directly at realdealsusa.wholesale@gmail.com, or try submitting again.');
+    }
+  }
+
+  (function(){
+    var header = document.querySelector('header.site');
+    function updateHeader(){
+      if(window.scrollY > 40){
+        header.classList.add('scrolled');
+      } else {
+        header.classList.remove('scrolled');
+      }
+    }
+    window.addEventListener('scroll', updateHeader, { passive: true });
+    updateHeader();
+
+    function updateHeaderHeight(){
+      document.documentElement.style.setProperty('--header-h', header.offsetHeight + 'px');
+    }
+    updateHeaderHeight();
+    window.addEventListener('resize', updateHeaderHeight);
+    window.addEventListener('orientationchange', updateHeaderHeight);
+    if(document.fonts && document.fonts.ready){
+      document.fonts.ready.then(updateHeaderHeight);
+    }
+  })();
+</script>
+
+</body>
+</html>

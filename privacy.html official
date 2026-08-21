@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#2B6CB0">
+<title>Privacy Policy | RealDealsUSA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,600;0,700&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='6' fill='%232B6CB0'/%3E%3Cpath d='M3 12.2L12 5l9 7.2' stroke='white' stroke-width='1.7' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M15.4 7.1V4.3h2.8v3.6' stroke='white' stroke-width='1.7' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M5.8 12v7.5h12.4V12' stroke='white' stroke-width='1.7' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<style>
+  :root{
+    --navy-950:#16324E;
+    --navy-900:#1E3F5E;
+    --blue-600:#2B6CB0;
+    --page-bg:#F8FBFE;
+    --white:#FFFFFF;
+    --ink:#1B3348;
+    --slate-600:#4C6178;
+    --border:#D9E5F0;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:'Public Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    color:var(--ink);
+    background:var(--page-bg);
+    font-size:17px;
+    line-height:1.7;
+  }
+  h1,h2{ font-family:'Lora', Georgia, serif; color:var(--navy-950); }
+  .container{ max-width:780px; margin:0 auto; padding:56px 24px 90px; }
+  a{ color:var(--blue-600); }
+  .back-link{ display:inline-block; margin-bottom:28px; font-weight:600; text-decoration:none; }
+  .updated{ color:var(--slate-600); font-size:15px; margin-bottom:40px; }
+  h2{ font-size:21px; margin-top:40px; margin-bottom:12px; }
+  p, li{ color:var(--slate-600); font-size:16.5px; }
+  .card{ background:var(--white); border:1px solid var(--border); border-radius:14px; padding:36px 40px; }
+  .notice{
+    background:#FFF7E8;
+    border:1px solid #EBD9AE;
+    border-radius:10px;
+    padding:16px 20px;
+    font-size:14.5px;
+    color:#7A5A17;
+    margin-bottom:36px;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <a href="index.html" class="back-link">&larr; Back to RealDealsUSA</a>
+
+  <div class="notice">
+    This page is a starting template and has not been reviewed by an attorney. Before publishing this site, have a licensed attorney review this policy for your state's requirements, particularly around real estate solicitation and lead-data handling.
+  </div>
+
+  <h1>Privacy Policy</h1>
+  <p class="updated">Last updated: August 21, 2026</p>
+
+  <div class="card">
+    <p>RealDealsUSA ("we," "us," or "our") respects your privacy. This policy explains what information we collect through this website, how we use it, and the choices you have.</p>
+
+    <h2>Information We Collect</h2>
+    <p>When you submit our contact form, we collect the information you provide, which may include your name, phone number, and property address. We do not knowingly collect sensitive personal information such as Social Security numbers or financial account details through this website.</p>
+
+    <h2>How We Use Your Information</h2>
+    <ul>
+      <li>To contact you about a potential cash offer for your property</li>
+      <li>To evaluate your property and prepare an offer</li>
+      <li>To respond to questions you submit to us</li>
+    </ul>
+
+    <h2>How We Share Your Information</h2>
+    <p>We do not sell your personal information. We may share it with service providers who help us operate our business (such as title companies involved in closing a transaction), and only as needed to provide our services to you.</p>
+
+    <h2>Your Choices</h2>
+    <p>You may ask us to delete the information you've submitted, or to stop contacting you, at any time by emailing <a href="mailto:realdealsusa.wholesale@gmail.com">realdealsusa.wholesale@gmail.com</a>.</p>
+
+    <h2>Contact Us</h2>
+    <p>If you have questions about this policy, contact us at <a href="mailto:realdealsusa.wholesale@gmail.com">realdealsusa.wholesale@gmail.com</a>.</p>
+  </div>
+</div>
+</body>
+</html>
